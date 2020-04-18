@@ -21,10 +21,10 @@ export class AppComponent implements OnInit{
   createLinks(){
     this._links=new Array();
 
-    this._links.push({path:"page-one",label:"Page One"});
-    this._links.push({path:"page-two",label:"Page Two"});
-    this._links.push({path:"page-three",label:"Page three"});
-    this._links.push({path:"page-four",label:"Page Four"});
+    this._links.push({path:"pages/page-one",label:"Page One"});
+    this._links.push({path:"pages/page-two",label:"Page Two"});
+    this._links.push({path:"pages/page-three",label:"Page three"});
+    this._links.push({path:"pages/page-four",label:"Page Four"});
 
   }
 

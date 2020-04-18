@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { PageOneRoutingModule } from './page-one.routing.module';
+import { PageOneComponent } from './page-one.componen';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [PageOneComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    PageOneRoutingModule
   ]
 })
 export class PageOneModule { }
